@@ -1,52 +1,69 @@
 html * {
   box-sizing: border-box;
+
 }
 
 :root {
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.3;
 }
 
-
-.top-title {
+header{
+  background-image: url("temp-background.jpg");
+}
+#dictionary-name {
   font-size: 3em;
   text-align: center;
 }
 
-.top-subheading{
-  font-size: 1.3em;
+#sub-defs{
+  font-size: 1.1em;
   text-align: center;
+  text-indent: 20px;
+  padding-bottom: 21px;
 }
 
-.top-menu{
+.sidenav{
   font-size: 1.2em;
   text-align: center;
 }
 
 main{
-  padding: 1.3em;
-  margin-top: 1em;
-  background-color: #fdf6da;
+    background-color: #fdf6da;
+    display: flex;
+    display: block;
 
-/*  display: flex; */
+
+}
+
+
+body{
+  margin: 0;
 
 }
 
-header{
-  background-image: url("");
+#welcome, #front-subhead, .article-text{
+  text-indent: 25px;
 
 }
+
+.article-text{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
 
 
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
     left: -80px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
-    padding: 15px; /* 15px padding */
+    padding: 9px; /* 15px padding */
     width: 100px; /* Set a specific width */
     text-decoration: none; /* Remove underline */
-    font-size: 20px; /* Increase font size */
-    color: white; /* White text color */
+    font-size: 19px; /* Increase font size */
+    color: black; /* White text color */
     border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
 }
 
@@ -56,21 +73,21 @@ header{
 
 /* The about link: 20px from the top with a green background */
 #resume {
-    top: 20px;
+    top: 0px;
     background-color: #92ccdd;
 }
 
 #writing {
-    top: 80px;
+    top: 50px;
     background-color: #c7eff0;
 }
 
 #design {
-    top: 140px;
+    top: 100px;
     background-color: #f5d5fd;
 }
 
 #blog {
-    top: 200px;
+    top: 150px;
     background-color: #fdc4ec;
 }
