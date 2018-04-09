@@ -10,17 +10,33 @@ html * {
 
 header{
   background-image: url("temp-background.jpg");
+  background-size: cover;
+  margin: 0;
+  padding-top: 10px;
+
+
+
 }
+
 #dictionary-name {
   font-size: 3em;
   text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 0px;
+
 }
 
 #sub-defs{
   font-size: 1.1em;
   text-align: center;
   text-indent: 20px;
-  padding-bottom: 21px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+  line-height: 1.5;
 }
 
 .sidenav{
@@ -42,14 +58,30 @@ body{
 
 }
 
-#welcome, #front-subhead, .article-text{
-  text-indent: 25px;
 
+
+#welcome{
+  font-size: 2em;
+  padding: 20px;
+  margin: 0px;
+  padding-bottom: 10px;
 }
+
+#front-subhead{
+  font-size: 1.1em;
+  padding: 20px;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 .article-text{
   padding-left: 25px;
   padding-right: 25px;
+  text-indent: 25px;
+  margin-top: 5px;
+
 }
 
 
@@ -59,10 +91,10 @@ body{
     position: absolute; /* Position them relative to the browser window */
     left: -80px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
-    padding: 9px; /* 15px padding */
-    width: 100px; /* Set a specific width */
+    padding: 8px; /* 15px padding */
+    width: 110px; /* Set a specific width */
     text-decoration: none; /* Remove underline */
-    font-size: 19px; /* Increase font size */
+    font-size: 15px; /* Increase font size */
     color: black; /* White text color */
     border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
 }
@@ -78,16 +110,16 @@ body{
 }
 
 #writing {
-    top: 50px;
+    top: 40px;
     background-color: #c7eff0;
 }
 
 #design {
-    top: 100px;
+    top: 80px;
     background-color: #f5d5fd;
 }
 
 #blog {
-    top: 150px;
+    top: 120px;
     background-color: #fdc4ec;
 }
