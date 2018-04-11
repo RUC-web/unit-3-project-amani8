@@ -9,7 +9,8 @@ html * {
 }
 
 header{
-  background-image: url("temp-background.jpg");
+  /* background-image: url("temp-background.jpg"); */
+  background-color: #ffe5b4;
   background-size: cover;
   margin: 0;
   padding-top: 10px;
@@ -28,10 +29,10 @@ header{
 }
 
 #sub-defs{
-  font-size: 1.1em;
+  font-size: .9em;
   text-align: center;
   text-indent: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -71,7 +72,7 @@ body{
   font-size: 1.1em;
   padding: 20px;
   margin: 0px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 
@@ -84,6 +85,10 @@ body{
 
 }
 
+.footer-info{
+  text-align: center;
+  font-size: .8em;
+}
 
 
 
@@ -105,21 +110,33 @@ body{
 
 /* The about link: 20px from the top with a green background */
 #resume {
-    top: 0px;
+    top: 5px;
     background-color: #92ccdd;
 }
 
 #writing {
-    top: 40px;
+    top: 45px;
     background-color: #c7eff0;
 }
 
 #design {
-    top: 80px;
+    top: 85px;
     background-color: #f5d5fd;
 }
 
 #blog {
-    top: 120px;
+    top: 125px;
     background-color: #fdc4ec;
+}
+
+/* everything above is for nav and homepage */
+
+#actualresume{
+  width: 100vw;
+
+}
+
+a:visited
+{
+    color: black;
 }
