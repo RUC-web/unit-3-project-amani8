@@ -68,8 +68,8 @@ body{
   padding-bottom: 10px;
 }
 
-#front-subhead{
-  font-size: 1.1em;
+.page-name{
+  font-size: 1.3em;
   padding: 20px;
   margin: 0px;
   padding-top: 20px;
