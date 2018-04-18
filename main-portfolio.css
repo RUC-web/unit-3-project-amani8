@@ -9,9 +9,9 @@ html * {
 }
 
 header{
-  /* background-image: url("temp-background.jpg"); */
-  background-color: #ffe5b4;
-  background-size: cover;
+  background-image: url("flowers3-edited.jpg");
+  /* background-color: #ffe5b4; */
+  background-position: center;
   margin: 0;
   padding-top: 10px;
 
