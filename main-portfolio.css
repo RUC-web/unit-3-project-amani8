@@ -82,12 +82,17 @@ body{
   padding-right: 25px;
   text-indent: 25px;
   margin-top: 5px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 
 }
 
 .footer-info{
   text-align: center;
   font-size: .8em;
+  background-color: #fdf6da;
+  padding: 20px;
+
 }
 
 
